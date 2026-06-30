@@ -1,0 +1,17 @@
+
+BUSINESS INSIGHTS REPORT
+
+1. Highest sales were recorded in 2024-08.
+2. The highest revenue category is Electronics.
+3. The most profitable region is South.
+4. The top-selling product is Dell Inspiron.
+5. The most used payment mode is UPI.
+6. The average customer rating is 3.01 out of 5.
+
+RECOMMENDATIONS
+
+1. Focus more marketing efforts on the Electronics category.
+2. Improve business strategies in lower-performing regions.
+3. Maintain sufficient stock of Dell Inspiron.
+4. Promote digital payment options like UPI.
+5. Improve delivery and customer service to increase ratings.
