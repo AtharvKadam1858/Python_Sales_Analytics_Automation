@@ -1,26 +1,37 @@
 # Python Sales Analytics Automation & BI Dashboard
 
+## Live Demo
+
+[Click here to view the live dashboard](https://python-sales-analytics.streamlit.app/)
+
 ## Project Overview
 
-This project is a complete Python-based sales analytics automation system.  
-It cleans raw sales data, performs KPI analysis, generates business insights, creates charts, builds Excel and PDF reports, and provides an interactive Streamlit dashboard.
+Python Sales Analytics Automation & BI Dashboard is an end-to-end data analytics project built using Python.  
+This project automates data cleaning, KPI calculation, business insights generation, chart creation, Excel/PDF report generation, and interactive dashboard visualization.
+
+It is designed to help businesses understand sales performance, profit trends, customer behavior, product performance, payment methods, and delivery status using a single automated analytics system.
 
 ## Key Features
 
-- Automated data cleaning
+- Automated raw data cleaning
 - Missing value handling
-- Sales and profit KPI calculation
+- Duplicate removal
+- KPI summary generation
+- Sales and profit analysis
 - Category-wise sales analysis
 - Region-wise profit analysis
+- Product performance analysis
 - Customer analysis
+- Payment mode analysis
+- Delivery status analysis
 - Automated chart generation
 - Excel report generation
 - PDF business report generation
 - Business insights generation
 - Interactive Streamlit dashboard
-- Downloadable reports
+- Downloadable reports and filtered data
 
-## Technologies Used
+## Tech Stack
 
 - Python
 - Pandas
@@ -31,26 +42,21 @@ It cleans raw sales data, performs KPI analysis, generates business insights, cr
 - OpenPyXL
 - ReportLab
 
-## Folder Structure
+## Project Workflow
 
 ```text
-Python_Sales_Analytics_Automation
-│
-├── dashboard
-│   └── app.py
-├── data
-│   ├── raw
-│   └── processed
-├── src
-│   ├── data_cleaning.py
-│   ├── data_analysis.py
-│   ├── visualization.py
-│   ├── report_generator.py
-│   ├── pdf_report.py
-│   └── business_insights.py
-├── charts
-├── reports
-├── screenshots
-├── main.py
-├── requirements.txt
-└── README.md
+Raw Excel Dataset
+        ↓
+Data Cleaning using Pandas
+        ↓
+Cleaned CSV Dataset
+        ↓
+KPI Analysis
+        ↓
+Chart Generation
+        ↓
+Excel Report + PDF Report
+        ↓
+Business Insights
+        ↓
+Interactive Streamlit Dashboard
